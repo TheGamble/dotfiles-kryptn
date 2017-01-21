@@ -1,7 +1,7 @@
 
 #update and install what we need
-sudo apt-get update && apt-get upgrade
-sudo apt-get install tmux git vim zsh curl
+sudo apt-get update && apt-get -y upgrade
+sudo apt-get install -y tmux git vim zsh curl
 
 #install pip and oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
