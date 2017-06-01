@@ -74,7 +74,7 @@ Plug 'junegunn/goyo.vim', {'for': 'markdown'}
 Plug 'godlygeek/tabular', {'for': 'markdown'}
 Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
 
-Plug 'ekalinin/dockerfile.vim', { 'for': 'dockerfile'}
+Plug 'ekalinin/dockerfile.vim', { 'for': 'Dockerfile'}
 
 Plug 'pangloss/vim-javascript', {'for': ['js', 'jsx']}
 Plug 'neoclide/vim-jsx-improve', {'for': ['js', 'jsx']}
