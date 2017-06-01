@@ -1,6 +1,7 @@
 
 #update and install what we need
-sudo apt update && apt -y upgrade
+sudo apt update
+sudo apt -y upgrade
 sudo apt install -y tmux git vim zsh curl
 
 #install pip and npm
@@ -11,7 +12,7 @@ sudo apt install -y nodejs
 # install vim  dependencies
 sudo pip install flake8 jedi
 
-# install our dotfiles
+# link dotfiles
 cd ~
 git clone https://github.com/kryptn/dotfiles .dotfiles
 ln -s .dotfiles/.vim .vim
