@@ -18,9 +18,10 @@ git clone https://github.com/kryptn/dotfiles .dotfiles
 ln -s .dotfiles/.vim .vim
 ln -s .dotfiles/.vimrc .vimrc
 ln -s .dotfiles/.tmux.conf .tmux.conf
-ln -sf .dotfiles/.zshrc .zshrc
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+rm .zshrc
+ln -s .dotfiles/.zshrc .zshrc
 # shell change attempt will fail, so force it
 sudo chsh -s $(which zsh) $USER
