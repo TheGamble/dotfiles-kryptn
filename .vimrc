@@ -70,6 +70,8 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'nvie/vim-flake8', {'for': 'python'}
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
 
+Plug 'iangreenleaf/yaml.vim', {'for': 'yaml'}
+
 Plug 'junegunn/goyo.vim', {'for': 'markdown'}
 Plug 'godlygeek/tabular', {'for': 'markdown'}
 Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
